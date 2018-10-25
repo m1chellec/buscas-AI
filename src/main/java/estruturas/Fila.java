@@ -65,6 +65,11 @@ public class Fila {
         return (numeroElementos == tamanho);
     }
 
+    public int getNumeroElementos() {
+        return numeroElementos;
+    }
+
+
     public static void main(String[] args) {
         Mapa mapa = new Mapa();
         Fila fila = new Fila(5);
